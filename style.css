@@ -1,0 +1,94 @@
+
+/* NOTE HEADER SECTION STYLES- */
+.RSlogo {
+  height: 2rem;
+  width: 2rem;
+}
+.logo {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+h3 {
+  color: blue;
+  font-family: Impact;
+}
+.navbar {
+  min-height: auto;
+  min-width: auto;
+}
+
+/* NOTE BACKGROUND IMAGE SECTION */
+.rs-img {
+  background-image: url(Assetts/Images/rsmap.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  max-width: auto;
+  max-height: auto;
+  }
+.pics {
+  background-color: black;
+  border-radius: 16px;
+  border: 3px solid rgb(88, 8, 236);
+  color: blue;
+}
+@media (min-width: 168px) {
+  .text {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  .text {
+    display: block;
+  }
+}
+
+/*NOTE IMAGE SWAP SECTION (ARMOR/EXPLORE)*/
+.custom {
+  color: blue;
+}
+.cardPop {
+  bottom: -19px;
+  text-align: center;
+  background-color: blue;
+  color: black;
+}
+
+/*NOTE PRIORITIZE WHICH CARD FIRST */
+@media(min-width:800px) {
+  .boxes {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+/* NOTE Playing with wraps */
+.Rsboss {
+  max-width: 100%;
+  height: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* NOTE playing with footer fonts */
+.foot {
+  font: bolder;
+  font-size: large;
+  font-style: italic;
+}
+
+.card2 {
+  top: -25px;
+  min-width: auto;
+  min-height: auto;
+}
