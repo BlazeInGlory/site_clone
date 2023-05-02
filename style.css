@@ -81,14 +81,14 @@ h3 {
 }
 
 /* NOTE playing with footer fonts */
-.foot {
+footer {
   font: bolder;
-  font-size: large;
+  font-size: larger;
   font-style: italic;
 }
 
 .card2 {
-  top: -25px;
+  top: -35px;
   min-width: auto;
   min-height: auto;
 }
