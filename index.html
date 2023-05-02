@@ -18,11 +18,11 @@
     
     <!-- STICKY SECTION -->
     <nav class="navbar">
-      <div class="col-6 logo">
+      <div class="col-5 logo">
         <img class="RSlogo" src="Assetts/Images/RS.jpg" alt="RSlogo">
       </div>
 
-      <div class="col-6 d-flex justify-content-end justify-content-around">
+      <div class="col-5 d-flex justify-content-end justify-content-around">
       <a href="">Membership!</a>
       <a href="">Jibbles</a>
       <a href="">Info</a>
@@ -35,7 +35,7 @@
 <!-- NOTE BACKGROUND IMAGE/BEGIN -->
 <main class="container-fluid">
 
-<div class="row rs-img justify-content-center align-items-center col-12">
+<div class="row rs-img justify-content-center align-items-center">
 
   <div class="col-6">
     <div class="pics p-2 text">
@@ -52,52 +52,57 @@
 </div>
 
 <!--NOTE - SWAPPING IMAGES FROM DESK/MOBILE VIEW -->
-<section class="bg-black boxes">
-  <div class="custom p-2 card bg-black card2">
+<!-- NOTE MAKE THIS SECTION A ROW, AND FOLLOW GRID PATTERN AFTERWARDS -->
+<section class="bg-black boxes row d-flex justify-content-center justify-content-around">
+  <div class="custom p-4 card text-light card2 col-12 col-md-3 pics">
     <h4>Miles may disagree...but!</h4>
     <p>Come and enjoy our hardcore mode, something WOW is too scared to adapt! Not only do we have one of a kind graphics, they're so bad you could probably play on a Tamagotchi! Yet, RS rises above.</p>
   </div>
-  <div class=" bg-blue card cardPop">
+  <div class=" bg-black text-light card cardPop col-12 col-md-3 pics">
     <h4>RS is far superior to WOW</h4>
     <P>Not only is our map much less user-friendly, it's also terribly blocky and you can barely tell the waters are fake! In fact you can barely tell it's water! Come and immerse yourself in a million chances in a lifetime opportunity!</P>
   </div>
 </section>
 <!-- NOTE END OF IMAGE SWAP -->
+<!-- NOTE MAKE SURE THIS IS A ROW, AND FOLLOW GRID PATTERN -->
+<section class="bg-black row boxes justify-content-center justify-content-around">
 
-<section class="bg-black col-12 boxes">
-
-  <div class="col-6">
+  <div class="col-12 col-md-3 d-flex pics m-5">
     <img class="Rsboss" src="Assetts/Images/RSBOSS.jpg" alt="Dungeon">
 
   </div>
 
-  <div class="col-6 pics p-3">
+  <div class="pics p-3 col-12 col-md-3 d-flex bg-black m-5 p-4">
     <h5>If I haven't convinced you yet, then wait until you hear how unbelievably expensive our memberships still are!</h5>
     <p>Yep! You read that correctly! Crack open your kids piggy banks and unleash the fun! For yourself! Because sharing characters will get you banned..But don't worry, your kids will understand when they see how much fun you are having while complaining every single boss kill!</p>
   </div>
 </section>
 
-<section class="bg-black boxes justify-content-center">
+<!-- NOTE CONTAINER => ROW => COLUMNS -->
+<section class="bg-black row align-items-center py-5 justify-content-center">
 
-  <div class="col-3 card d-flex mb-5 h-25 bg-black custom pics">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptatem, facilis velit architecto praesentium aspernatur.</p>
-
-  </div>
-  <div class="col-3 card d-flex mb-5 cards h-75 bg-black custom pics">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis, tempore sint blanditiis eligendi soluta explicabo quasi quos alias reprehenderit praesentium repellendus doloribus asperiores quaerat.</p>
+  <div class="col-10 col-md-3 mx-2 card d-flex mb-5 h-25 bg-black custom pics">
+    <p class="my-3 p-0 text-center text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptatem, fais velit architecto praesentium aspernatur.</p>
 
   </div>
-  <div class="col-3 card d-flex mb-5 h-25 bg-black custom pics">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, assumenda. Rem, autem. Suscipit, temporibus dolorem.</p>
+  <div class="col-10 px-2 align-items-center col-md-3 mx-2 card d-flex mb-5 cards h-75 bg-black custom pics">
+    <p class="my-3 p-0 text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam omnis, tempore sint blanditiis eligendi soluta explicabo quasi quos alias reprehenderit praesentium repellendus doloribus asperiores quaerat.</p>
+
+  </div>
+  <div class="col-10 px-2 col-md-3 mx-2 card d-flex mb-5 h-25 bg-black custom pics">
+    <p class="my-3 p-0 text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, assumenda. Rem, autem. Suscipit, temporibus dolorem.</p>
   </div>
 </section>
 </main>
 </body>
 
-<footer class="row col-12 custom justify-content-center foot bg-black">
+<footer class="container-fluid custom justify-content-center foot bg-black">
+  <div class="row">
+  <div class="col-12">
   <h5>If you're still playing WOW, you're doing it wrong</h5>
   <p>Only plebs play wow</p>
-
+</div>
+</div>
 </footer>
 
 
